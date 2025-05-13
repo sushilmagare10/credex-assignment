@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { CheckCircle, CreditCard, DollarSign, Upload } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { cn } from "@/lib/utils";
 
 const steps = [
     {

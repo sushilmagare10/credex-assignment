@@ -90,7 +90,7 @@ const HeroSection = () => {
                         transition={{ duration: 0.6, delay: 1 }}
                         className="flex flex-wrap justify-center gap-8 mt-6"
                     >
-                        {["Adobe", "Microsoft", "Autodesk", "JetBrains", "Atlassian"].map((company, index) => (
+                        {["Adobe", "Microsoft", "Autodesk", "JetBrains", "Atlassian"].map((company) => (
                             <motion.div
                                 key={company}
                                 className="text-white/40 font-semibold"
