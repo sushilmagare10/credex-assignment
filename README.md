@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SoftSell - Software License Resale Platform
 
-## Getting Started
+A responsive, single-page marketing website for a fictional software resale startup called SoftSell. This project demonstrates the ability to quickly ship a usable product with clean code, relevant content, and good design instincts.
 
-First, run the development server:
+## Features Implemented
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Hero Section**: Eye-catching headline, subheading, and CTA button
+- **How It Works**: Three-step process with icons and animations
+- **Why Choose Us**: Four key benefits with icons and descriptions
+- **Customer Testimonials**: Customer reviews with ratings
+- **Contact Form**: Validated form with name, email, company, license type, and message fields
+- **Chat Widget**: Mock AI-powered chat widget with suggested questions
+- **Responsive Design**: Mobile-first approach that works on all screen sizes
+- **Light/Dark Mode**: Toggle between light and dark themes
+- **Animations**: Smooth animations and transitions using Framer Motion
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Design Choices
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Modern UI**: Clean, minimalist design with ample whitespace
+- **Color Scheme**: Shadcn Neutral color theme with dark/light theme support
+- **Typography**: Clear hierarchy with readable font sizes
+- **Micro-interactions**: Subtle animations and hover effects for better user engagement
+- **Accessibility**: Semantic HTML, proper contrast ratios, and keyboard navigation
+- **Component Architecture**: Modular components for better maintainability
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Framework**: Next.js 15 with App Router
+- **Styling**: Tailwind CSS with shadcn/ui components
+- **Animations**: Framer Motion
+- **Theming**: next-themes for dark/light mode
+- **Icons**: Lucide React
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Running the Project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository
+2. Install dependencies:
+   \`\`\`
+   npm install
+   \`\`\`
+3. Run the development server:
+   \`\`\`
+   npm run dev
+   \`\`\`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The project is deployed on Vercel and can be accessed at [softsell-demo.vercel.app](https://softsell-demo.vercel.app) (example URL).
